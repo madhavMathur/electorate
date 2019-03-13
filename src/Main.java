@@ -35,12 +35,12 @@ public class Main {
 	}
 	
     private static void displayOptions() {
-        String[] hbCandidates = {"Sumer", "Shivam", "Parth"};
-        String[] hgCandidates = {"Priyanka", "Sunalika", "Vandana"};
-        String[] heCandidates = {"Hardik", "Aditi", "Soumil"};
-        String[] hsbCandidates = {"Harshul", "Pranav", "Parth"};
-        String[] hsgCandidates = {"Mallika", "Arunima"};
-        String[] hcCandidates = {"Shrey", "Sunalika", "Arush", "Kairavi"};
+        String[] hbCandidates = {"Ant", "Bear", "Cat"};
+        String[] hgCandidates = {"Dog", "Cheetah", "Leopard"};
+        String[] heCandidates = {"Horse", "Sheep", "Goat"};
+        String[] hsbCandidates = {"Giraffe", "Tortoise", "Python"};
+        String[] hsgCandidates = {"Tiger", "Lion"};
+        String[] hcCandidates = {"Eagle", "Chimpanzee", "Raccoon", "Mongoose"};
         
         JComboBox headBoy = new JComboBox(hbCandidates);
         JComboBox headGirl = new JComboBox(hgCandidates);
@@ -55,11 +55,11 @@ public class Main {
         panel.add(headGirl);
         panel.add(new JLabel("Head of Events:"));
         panel.add(headEvents);
-        panel.add(new JLabel("Head of Sports (Boy):"));
+        panel.add(new JLabel("Head of Sports (B):"));
         panel.add(headSportsBoy);
-        panel.add(new JLabel("Head of Sports (Girl):"));
+        panel.add(new JLabel("Head of Sports (G):"));
         panel.add(headSportsGirl);
-        panel.add(new JLabel("Vasundhara House Captain:"));
+        panel.add(new JLabel(" House Captain:"));
         panel.add(houseCaptain);
         int result = JOptionPane.showConfirmDialog(null, panel, "Student Council Elections 2016",
             JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
